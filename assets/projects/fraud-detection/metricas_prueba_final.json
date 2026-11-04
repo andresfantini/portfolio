@@ -1,0 +1,22 @@
+{
+  "tipo": "REVISION_2026_TEST_FINAL_UNICO",
+  "dataset_sha256": "7013c329bae9ef0ef32d65dbeb095694f0c7cd6c00ff74b2d0087fa1c67b8717",
+  "modelo_sha256": "830a35e40efcc642ba8a518a636f2c074b42e8a479ea14e45c879e3850b58214",
+  "nombre_modelo": "Random Forest optimizado",
+  "umbral_elegido_sin_test": 0.62,
+  "n_entrenamiento": 640000,
+  "n_calibracion": 160000,
+  "n_prueba": 200000,
+  "prevalencia_fraude_prueba": 0.087405,
+  "accuracy": 0.999975,
+  "precision": 1.0,
+  "recall": 0.999713975173045,
+  "f1": 0.9998569671310468,
+  "f2": 0.9997711670480549,
+  "average_precision": 0.9999999934559326,
+  "roc_auc": 0.9999999993731615,
+  "TN": 182519,
+  "FP": 0,
+  "FN": 5,
+  "TP": 17476
+}

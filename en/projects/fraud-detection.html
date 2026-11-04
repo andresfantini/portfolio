@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#071724" name="theme-color"/>
+<meta content="Classification of simulated transactions and methodological reassessment with independent evaluation (2026)." name="description"/>
+<meta content="Esteban Andrés Fantini" name="author"/>
+<meta content="website" property="og:type"/>
+<meta content="Credit Card Fraud Detection | Esteban Andrés Fantini" property="og:title"/>
+<meta content="Classification of simulated transactions and methodological reassessment with independent evaluation (2026)." property="og:description"/>
+<meta content="../assets/img/og-cover.png" property="og:image"/>
+<meta content="index,follow" name="robots"/>
+<link href="../../assets/img/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../../assets/css/styles.css" rel="stylesheet"/>
+<title>Credit Card Fraud Detection | Esteban Andrés Fantini</title>
+<link href="fraud-detection.html" hreflang="en" rel="alternate"/><link href="../../projects/fraud-detection.html" hreflang="es-AR" rel="alternate"/><link href="../../pt/projects/fraud-detection.html" hreflang="pt-BR" rel="alternate"/><link href="../../projects/fraud-detection.html" hreflang="x-default" rel="alternate"/><meta content="en_US" property="og:locale"/></head>
+<body id="top">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<nav aria-label="Primary navigation" class="wrap nav">
+<a aria-label="Home — Esteban Andrés Fantini" class="brand" href="../index.html">
+<img alt="" height="43" src="../../assets/img/brand-mark.svg" width="43"/>
+<span><span class="brand-name">ESTEBAN A. FANTINI</span></span>
+</a>
+<div class="nav-links" id="primary-menu">
+<a href="../index.html#work">Projects</a>
+<a href="../index.html#approach">Approach</a>
+<a href="../index.html#experience">Experience</a>
+<a href="../index.html#expertise">Expertise</a>
+<a href="../index.html#contact">Contact</a>
+</div>
+<div class="nav-cta"><div aria-label="Choose language" class="language-switch" role="group"><a href="../../projects/fraud-detection.html" hreflang="es-AR" lang="es-AR">ES</a><a href="../../pt/projects/fraud-detection.html" hreflang="pt-BR" lang="pt-BR">PT</a><a aria-current="true" href="fraud-detection.html" hreflang="en" lang="en">EN</a></div>
+<a class="btn btn-primary" download="" href="../../assets/cv/Esteban_Andres_Fantini_CV_EN.pdf" rel="noopener" target="_blank">Download CV (EN) <span aria-hidden="true">↗</span></a>
+<button aria-controls="primary-menu" aria-expanded="false" aria-label="Open navigation" class="menu-toggle" data-label-close="Close navigation" data-label-open="Open navigation" type="button">☰</button>
+</div>
+</nav>
+</header>
+<main id="main">
+<section class="detail-hero"><div class="wrap">
+<nav aria-label="Breadcrumb" class="crumbs"><a href="../index.html#work">← Back to projects</a><span aria-hidden="true">/</span><span>Data Science / Machine Learning</span></nav>
+<div class="detail-layout"><div><span class="eyebrow mint">Data Science / Machine Learning · 2022 + 2026 review</span><h1>Credit Card Fraud Detection</h1><p>Fraud classification with supervised models: a 2022 academic group project and a reproducible 2026 methodological reassessment using simulated data.</p><div class="stack"><span class="pill ink">Python / Jupyter</span><span class="pill ink">Scikit-learn</span><span class="pill ink">EDA</span><span class="pill ink">Classification</span><span class="pill ink">Random Forest</span><span class="pill ink">Model Evaluation</span></div><a class="text-link light" href="../index.html#contact">Contact about this work <span aria-hidden="true">↗</span></a></div><span aria-hidden="true" class="detail-poster"><span class="detail-cover-top">PROJECT / 04</span><span class="detail-cover-title">Fraud Analytics</span><span class="detail-cover-foot">DATA SCIENCE / RISK ANALYTICS <span>2022</span></span></span></div>
+</div></section>
+<div class="detail-summary"><div class="wrap summary-strip"><div><small>Problem area</small><strong>Fraud detection in transactional data</strong></div><div><small>Project type</small><strong>Academic group project (FaMAF / UNC, 2022) · Technical reassessment (2026)</strong></div><div><small>Professional value</small><strong>Classification methods interpreted through business risk</strong></div></div></div>
+<section class="detail-body"><div class="wrap article-layout"><article class="article">
+<h2>The challenge</h2><p>Fraud detection is a classification problem where overall accuracy alone can be misleading. False negatives allow fraudulent transactions to go undetected, while false positives create unnecessary review costs and customer friction.</p>
+<h2>Approach &amp; contribution</h2><p>I participated in a 2022 FaMAF–UNC diploma group project that analyzed one million simulated transactions and compared Decision Trees with Random Forest. In 2026, I independently reconstructed the experiment, fixed data leakage, compared models using stratified cross-validation, and held out separate data for threshold selection and final testing.</p><ul><li>I explored distributions, correlations, and transactional patterns, paying particular attention to class imbalance.</li><li>I organized preprocessing within pipelines and compared unweighted, class-weighted, and training-only undersampling approaches.</li><li>I compared Logistic Regression, Decision Trees, and Random Forest, selecting hyperparameters with cross-validated Average Precision.</li><li>I selected the decision threshold using F2 on a separate calibration set and documented false positives and false negatives on 200,000 held-out simulated transactions.</li></ul>
+<div class="quote">In fraud analytics, evaluating the consequences of a mistake is as important as measuring predictive performance.</div>
+<h2>What this demonstrates</h2><p>This project demonstrates exploratory analysis, supervised classification, cross-validation, hyperparameter tuning, and reproducible evaluation. It also demonstrates my ability to critically review earlier work, correct methodology, and communicate applicability limits.</p>
+<h2>Evidence &amp; scope</h2><p>The 2026 reassessment used a public simulated dataset of 1,000,000 records. On 200,000 held-out transactions, the model detected 17,476 of 17,481 simulated fraud cases (99.9714% recall), with five false negatives and no false positives. The model was frozen before final testing. These results do not measure performance on real banking transactions or imply deployment. The original 2022 results are kept separate.</p>
+</article>
+<aside aria-label="Project details" class="sidebar">
+<div class="side-card"><h3>Technologies / methods</h3><div class="stack"><span class="pill">Python / Jupyter</span><span class="pill">Scikit-learn</span><span class="pill">EDA</span><span class="pill">Classification</span><span class="pill">Random Forest</span><span class="pill">Model Evaluation</span></div></div>
+<div class="side-card"><h3>Links &amp; materials</h3><div class="side-links">
+<a download="" href="../../assets/projects/fraud-detection/01_desarrollo_ejecutado.ipynb" rel="noopener">2026 development and evaluation notebooks (1) <span aria-hidden="true">↓</span></a>
+<a download="" href="../../assets/projects/fraud-detection/02_evaluacion_final_ejecutada.ipynb" rel="noopener">2026 development and evaluation notebooks (2) <span aria-hidden="true">↓</span></a>
+<a download="" href="../../assets/projects/fraud-detection/informe_tecnico_2026.md" rel="noopener">2026 technical results report <span aria-hidden="true">↓</span></a>
+<a download="" href="../../assets/projects/fraud-detection/README.md" rel="noopener">Reproducibility and limitations <span aria-hidden="true">↓</span></a>
+<a href="mailto:andres.fantini@mi.unc.edu.ar?subject=Fraud%20detection%20project" rel="noopener noreferrer" target="_blank">Discuss this project <span aria-hidden="true">↗</span></a>
+</div><p style="margin-top:16px">The 2026 individual review notebooks and technical report are available. Original group-authored materials are not redistributed here.</p></div>
+<div class="side-card"><h3>Related roles</h3><p>Data Analyst · Business Insights Analyst · Junior Data Scientist · Fraud / Risk Analytics</p></div>
+</aside></div></section>
+<section class="related"><div class="wrap"><div class="section-top"><div><span class="eyebrow dark">Continue exploring</span><h2 class="section-heading">More selected work.</h2></div><a class="text-link" href="../index.html#work">All projects <span aria-hidden="true">↗</span></a></div><div class="related-grid"><a class="related-link" href="e60-costing.html"><small>Business Systems / Cost Engineering</small><strong>E-60 Industrial Costing System</strong><span aria-hidden="true">↗</span></a><a class="related-link" href="telemetria-greenhouse.html"><small>IoT / Data Engineering</small><strong>TelemetriaGreenhouse</strong><span aria-hidden="true">↗</span></a><a class="related-link" href="olist-analytics.html"><small>Data Science / Business Analytics</small><strong>Olist E-commerce Analytics</strong><span aria-hidden="true">↗</span></a></div></div></section>
+</main>
+<footer class="site-footer">
+<div class="wrap"><span>© 2026 Esteban Andrés Fantini · Industrial data, applied analytics &amp; business systems</span><span><a href="../index.html#work">Selected work</a>  ·  <a href="https://github.com/andresfantini" rel="noopener noreferrer" target="_blank">GitHub</a>  ·  <a href="https://www.linkedin.com/in/andresfantini" rel="noopener noreferrer" target="_blank">LinkedIn</a></span></div>
+</footer>
+<a aria-label="Back to top" class="back-to-top" href="#top">↑</a>
+<script defer="" src="../../assets/js/main.js"></script>
+</body>
+</html>

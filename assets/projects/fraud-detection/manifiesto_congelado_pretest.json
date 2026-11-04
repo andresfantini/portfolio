@@ -1,0 +1,89 @@
+{
+  "tipo": "REVISION_METODOLOGICA_2026",
+  "estado": "MODELO_CONGELADO_PRETEST",
+  "csv_sha256": "7013c329bae9ef0ef32d65dbeb095694f0c7cd6c00ff74b2d0087fa1c67b8717",
+  "modelo": "Random Forest optimizado",
+  "modelo_joblib_sha256": "830a35e40efcc642ba8a518a636f2c074b42e8a479ea14e45c879e3850b58214",
+  "n_entrenamiento": 640000,
+  "n_calibracion": 160000,
+  "n_prueba_reservada": 200000,
+  "test_indices_sha256": "67133c73a19f1ce5312d53f9f844b3be65999fd1066d2c46cd203848b933c2e2",
+  "umbral_f2_calibrado": 0.62,
+  "f2_calibracion": 1.0,
+  "ap_calibracion": 1.0,
+  "cv_folds": 3,
+  "search_iter": 6,
+  "mejor_ap_search_cv": 0.9999999865790826,
+  "parametros_search": {
+    "modelo__n_estimators": 100,
+    "modelo__min_samples_leaf": 1,
+    "modelo__max_features": "sqrt",
+    "modelo__max_depth": 16,
+    "modelo__class_weight": null
+  },
+  "cv_modelos": [
+    {
+      "modelo": "Random Forest ponderado",
+      "ap_media": 0.9999999731601186,
+      "ap_desv": 2.7814064634666886e-08,
+      "roc_auc_media": 0.99999999742893,
+      "f2_05_media": 0.9998426736888346,
+      "precision_05_media": 0.9999284980111968,
+      "recall_05_media": 0.9998212306482177
+    },
+    {
+      "modelo": "Random Forest original",
+      "ap_media": 0.9999999664717386,
+      "ap_desv": 4.3412462260064017e-08,
+      "roc_auc_media": 0.9999999967861607,
+      "f2_05_media": 0.9998426699301586,
+      "precision_05_media": 1.0,
+      "recall_05_media": 0.9998033537130394
+    },
+    {
+      "modelo": "Random Forest + submuestreo",
+      "ap_media": 0.9999951418430748,
+      "ap_desv": 5.961302418280954e-06,
+      "roc_auc_media": 0.999999550751251,
+      "f2_05_media": 0.9995997020996352,
+      "precision_05_media": 0.9981441846266237,
+      "recall_05_media": 0.9999642461296435
+    },
+    {
+      "modelo": "Árbol de decisión",
+      "ap_media": 0.9997454291416287,
+      "ap_desv": 0.00010789409694192292,
+      "roc_auc_media": 0.999914378872068,
+      "f2_05_media": 0.9996817915478292,
+      "precision_05_media": 0.9996248085075669,
+      "recall_05_media": 0.9996960921019701
+    },
+    {
+      "modelo": "Regresión Logística ponderada",
+      "ap_media": 0.7544666180255977,
+      "ap_desv": 0.002927292332006148,
+      "roc_auc_media": 0.9792676499060996,
+      "f2_05_media": 0.8387044063868984,
+      "precision_05_media": 0.5731416150605116,
+      "recall_05_media": 0.9485859344274017
+    },
+    {
+      "modelo": "Baseline (prior)",
+      "ap_media": 0.08740312500042678,
+      "ap_desv": 1.9313514318223734e-07,
+      "roc_auc_media": 0.5,
+      "f2_05_media": 0.0,
+      "precision_05_media": 0.0,
+      "recall_05_media": 0.0
+    }
+  ],
+  "semilla": 42,
+  "versiones": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "imbalanced-learn": "0.14.1",
+    "matplotlib": "3.10.8"
+  },
+  "datetime_utc": "2026-10-31T05:13:22.367496+00:00"
+}
