@@ -37,11 +37,11 @@
     "node_red": "Node-RED",
     "delivery_forecasting": "Predicción de Entregas",
     "data_science_e_commerce": "CIENCIA DE DATOS / COMERCIO ELECTRÓNICO",
-    "i_participated_actively_in_the_technical_and": "Participé activamente en el trabajo técnico y conceptual de un proyecto de Ciencia de Datos sobre tiempos de entrega en el comercio electrónico brasileño, utilizando EDA, ingeniería de variables y modelos predictivos.",
+    "i_participated_actively_in_the_technical_and": "Participé de un proyecto de Ciencia de Datos sobre tiempos de entrega en el comercio electrónico brasileño, utilizando EDA, ingeniería de features y modelos predictivos.",
     "python_jupyter": "Python / Jupyter",
     "pandas_eda": "Pandas / EDA",
     "data_preparation": "Preparación de datos",
-    "feature_engineering": "Ingeniería de variables",
+    "feature_engineering": "Ingeniería de features",
     "fraud_analytics": "Análisis de Fraude",
     "data_science_risk_analytics": "CIENCIA DE DATOS / ANÁLISIS DE RIESGOS",
     "classification_of_potentially_fraudulent_transactions_using_exploratory": "Proyecto de Ciencia de Datos y Machine Learning, orientado a la identificacion de transacciones potencialmente fraudulentas.",
@@ -106,13 +106,13 @@
         "applied_software": "Software aplicado",
         "cost_modeling_software_solution": "Modelo de costos → solución de software",
         "public_repository": "Repositorio público",
-        "public_code_and_architecture_documentation": "Código público y documentación de arquitectura",
-        "academic_team_project": "Proyecto académico en equipo",
-        "academic_project_analytical_evidence_under_review": "Proyecto académico · evidencia analítica en revisión",
-        "academic_project_notebooks_under_technical_review": "Proyecto académico · notebooks en revisión técnica",
+        "public_code_and_architecture_documentation": "Sistema de monitoreo, automatización y control IOT  →  Solución de Software",
+        "academic_team_project": "Proyecto académico",
+        "academic_project_analytical_evidence_under_review": "Proyecto académico",
+        "academic_project_notebooks_under_technical_review": "Proyecto académico",
         "aria_label_read_e_60_industrial_costing_system_case": "Ver estudio de caso: Sistema de Costeo Industrial E-60",
         "aria_label_read_telemetriagreenhouse_case_study": "Ver estudio de caso: TelemetriaGreenhouse",
-        "aria_label_read_olist_e_commerce_analytics_case_study": "Ver estudio de caso: OLIST — Analítica de Comercio Electrónico",
+        "aria_label_read_olist_e_commerce_analytics_case_study": "Ver estudio de caso: Analítica de Comercio Electrónico",
         "aria_label_read_credit_card_fraud_detection_case_study": "Ver estudio de caso: Prevención de Fraudes con Tarjeta de Crédito"
       },
       "value": {
@@ -277,8 +277,8 @@
     },
     "projects/olist-analytics": {
       "metadata": {
-        "olist_e_commerce_analytics_esteban_andres_fantini": "OLIST — Analítica de Comercio Electrónico | Esteban Andrés Fantini",
-        "content_olist_e_commerce_analytics_esteban_andres_fantini": "OLIST — Analítica de Comercio Electrónico | Esteban Andrés Fantini"
+        "olist_e_commerce_analytics_esteban_andres_fantini": "Analítica de Comercio Electrónico | Esteban Andrés Fantini",
+        "content_olist_e_commerce_analytics_esteban_andres_fantini": "Analítica de Comercio Electrónico | Esteban Andrés Fantini"
       },
       "detail-hero": {
         "data_science_business_analytics_2025": "Ciencia de Datos / Analítica de Negocios · 2025",
@@ -299,7 +299,7 @@
         "analyzed_relevant_features_such_as_geographic_distance": "Analicé variables relevantes como la distancia geográfica (Haversine), el valor del flete, el peso del producto y los tiempos de envío.",
         "contributed_to_the_interpretation_of_the_analytical": "Contribuí a la interpretación del enfoque analítico y de las comparaciones de modelos del equipo, incluyendo regresión lineal, árboles de decisión, Random Forest y LightGBM.",
         "a_useful_delivery_forecast_links_predictive_error": "Un pronóstico útil vincula el error predictivo con decisiones concretas: fechas de entrega más claras, priorización y mejor comunicación con clientes.",
-        "the_project_demonstrates_exploratory_data_analysis_multi": "El proyecto demuestra análisis exploratorio, preparación de datos de múltiples tablas, ingeniería de variables, familiaridad con la evaluación de modelos de regresión y capacidad para relacionar hallazgos con preguntas de negocio.",
+        "the_project_demonstrates_exploratory_data_analysis_multi": "El proyecto demuestra análisis exploratorio, preparación de datos de múltiples tablas, ingeniería de features, familiaridad con la evaluación de modelos de regresión y capacidad para relacionar hallazgos con preguntas de negocio.",
         "collaborative_academic_work_based_on_publicly_available": "Trabajo académico colaborativo basado en datos públicos de Olist.",
         "regression_models": "Modelos de regresión",
         "historical_team_notebooks_and_the_final_report": "Los notebooks históricos del equipo y el informe final todavía no se publicaron como repositorio técnico organizado.",
