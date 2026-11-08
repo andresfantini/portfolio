@@ -197,7 +197,7 @@
       },
       "detail-body": {
         "an_industrial_workshop_needed_a_consistent_way": "Un pequeño taller industrial necesitaba un sistema de costeo adaptado a su proceso de fabricación de aerogeneradores E-60, que permitiera determinar costos de producción, establecer precios de venta, márgenes de rentabilidad, puntos de equilibrio y evaluar escenarios de planificación.",
-        "i_designed_the_original_integrated_costing_model": "Relevé el proceso productivo, sus movimientos y tiempos, y diseñé un sistema integral de costeo inicialmente implementado en Excel. Posteriormente, lo transformé en una aplicación Python, PostgreSQL y Streamlit, aplicando modelado de datos, arquitectura de software y pruebas automatizadas.",
+        "i_designed_the_original_integrated_costing_model": "El desafío consistio en comprender el proceso productivo, diseñar el modelo económico que constituye el motor del sistema de costeo y transformarlo en una aplicación de software trazable y mantenible.\nRelevé el proceso productivo, sus movimientos y tiempos, y diseñé un sistema integral de costeo inicialmente implementado en Excel. Posteriormente, lo transformé en una aplicación Python, PostgreSQL y Streamlit, aplicando modelado de datos, arquitectura de software y pruebas automatizadas.",
         "structured_the_model_around_direct_materials_direct": "Estructuré el modelo con materiales directos, mano de obra directa, costos indirectos de fabricación y criterios de asignación.",
         "modeled_unit_production_cost_contribution_margin_break": "Modelé el costo unitario, el margen de contribución, el punto de equilibrio y los presupuestos de producción.",
         "built_a_python_postgresql_application_with_versioned": "Desarrollé una aplicación Python/PostgreSQL con costeo y recosteo versionados, trazabilidad y mecanismos de control de acceso.",
@@ -212,7 +212,7 @@
         "no_public_source_code_link_is_provided": "No se publica un enlace al código fuente de este proyecto de consultoría.",
         "business_systems_analyst_cost_analyst_industrial_data": "Analista de Sistemas de Gestión · Analista de Costos · Analista de Datos Industriales · Analítica / Ingeniería de Datos",
         "e60_v6_challenge_part2": "El desafío requería relevar las actividades productivas, estudiar movimientos y tiempos de trabajo, identificar los recursos consumidos y establecer criterios confiables para calcular y controlar los costos.",
-        "e60_v6_bullet_title_1": "Diseño del costeo:",
+        "e60_v6_bullet_title_1": "Diseño del sistema de costeo:",
         "e60_v6_bullet_text_1": "estructuré actividades, recursos, tiempos y criterios de asignación de materiales, mano de obra y costos indirectos de fabricación.",
         "e60_v6_bullet_title_2": "Presupuestación industrial:",
         "e60_v6_bullet_text_2": "determiné el nivel de actividad a partir del presupuesto de ventas, elaborando los presupuestos de producción, MPD, MOD y CIF.",
@@ -243,8 +243,8 @@
         "content_telemetriagreenhouse_esteban_andres_fantini": "TelemetriaGreenhouse | Esteban Andrés Fantini"
       },
       "detail-hero": {
-        "iot_data_engineering_20232026": "IoT / Ingeniería de Datos · 2023–2026",
-        "a_practical_connection_between_physical_sensor_data": "Evolución de un sistema de monitoreo y control IoT hacia un pipeline batch de ingeniería de datos con Python y PySpark.",
+        "iot_data_engineering_20232026": "IoT / Ingeniería de Datos",
+        "a_practical_connection_between_physical_sensor_data": "Este proyecto es la evolucion de un sistema de monitoreo y control de un invernadero mediante dispositivos IoT, hacia el modelado y procesamiento de datos con Python y PySpark.",
         "python_pyspark": "Python / PySpark",
         "parquet": "Parquet",
         "project_02": "PROJECT / 02"
@@ -255,21 +255,21 @@
         "end_to_end_system_thinking_across_edge": "Visión integral desde dispositivos edge hasta las capas de datos"
       },
       "detail-body": {
-        "a_greenhouse_monitoring_scenario_requires_collecting_heterogeneous": "Un invernadero requiere observar temperatura, humedad ambiental, luminosidad y humedad del suelo, además de coordinar acciones de riego y ventilación. Para analizar la información históricamente, también es necesario definir estructuras, comprobar su calidad y persistir los registros de manera reproducible.",
-        "the_original_iot_project_used_sensors_esp32": "El proyecto comenzó con el diseño y la implementación de una arquitectura de monitoreo y control de un invernadero, en el marco de una formación en IoT (UTN, 2023–2024). Posteriormente desarrollé una capa de procesamiento de datos con Python y PySpark. Ambas etapas comparten el dominio y el modelo de información, pero no hay evidencia de una conexión automática y continua entre el sistema físico y el pipeline.",
+        "a_greenhouse_monitoring_scenario_requires_collecting_heterogeneous": "Una comunidad rural necesitaba supervisar a distancia las condiciones ambientales y del suelo de un invernadero, y controlar dispositivos de riego y ventilación.\nEl desafío inicial consistía en integrar sensores, actuadores y sistemas de comunicación para posibilitar el monitoreo y control remoto. Posteriormente, el proyecto evolucionó hacia un segundo desafío: estructurar, validar y almacenar los datos para facilitar su análisis histórico.",
+        "the_original_iot_project_used_sensors_esp32": "El proyecto comenzó en 2023, durante una Diplomatura en Internet of Things de la UTN, mediante una experiencia colaborativa de desarrollo tecnológico para una comunidad rural. Posteriormente, retomé ese dominio para desarrollar una solución de Ingeniería de Datos con Python y PySpark.",
         "connected_the_iot_architecture_around_temperature_humidity": "Diseñé la arquitectura IoT con sensores DHT22, TSL2561 y capacitivos de humedad del suelo, ESP32, Raspberry Pi, MQTT/Mosquitto, Node-RED y Blynk; contemplé actuadores de riego y ventilación.",
         "defined_datasets_for_sensor_and_actuator_events": "Modelé dispositivos, zonas y eventos de sensores y actuadores; preparé datos simulados y datos meteorológicos históricos externos para el procesamiento.",
         "implemented_explicit_schemas_separated_readers_writers_dataset": "Implementé pipelines batch Bronze → Silver mediante Python y PySpark, con esquemas explícitos, lectores y escritores separados y validaciones de calidad por dataset.",
         "persisted_validated_analytical_data_in_parquet_and": "Persistí los registros validados en Parquet; incorporé logging de ejecución y errores y documenté los módulos y secuencias del sistema.",
         "from_sensor_signal_to_trustworthy_analytical_record": "De la señal del sensor al registro analítico confiable: el proyecto conecta sistemas físicos e ingeniería de datos.",
         "the_repository_provides_evidence_of_modular_python": "El proyecto combina comprensión de hardware y comunicaciones IoT con modelado de datos, procesamiento PySpark, validación de calidad, logging y organización modular del software. Demuestra una evolución técnica desde la adquisición y supervisión física hacia la preparación de datasets estructurados para análisis.",
-        "the_public_repository_documents_a_bronze_silver": "El repositorio documenta un pipeline Bronze → Silver desarrollado con Python y PySpark, cuya ejecución y escritura de datasets en Parquet fueron verificadas durante el desarrollo. Para demostrar su funcionamiento se utilizaron datos simulados de sensores y actuadores, catálogos de dispositivos y zonas, e información meteorológica histórica externa. La arquitectura se apoya conceptualmente en el sistema IoT desarrollado previamente. No se ha acreditado una conexión automática y continua entre los dispositivos físicos originales y el pipeline. La capa Gold y los indicadores analíticos derivados permanecen como posibilidades de ampliación. El proyecto representa una experiencia académica y de portfolio técnico, no un sistema comercial desplegado en producción.",
+        "the_public_repository_documents_a_bronze_silver": "El repositorio documenta cinco pipelines Bronze → Silver desarrollados con Python y PySpark, con ejecuciones satisfactorias registradas durante el desarrollo y persistencia de datos en Parquet.\nPara probar el procesamiento se utilizaron eventos de sensores y actuadores, complementados con información meteorológica histórica externa. El proyecto cuenta además con documentación y diagramas de arquitectura.",
         "python_pyspark": "Python / PySpark",
         "parquet": "Parquet",
         "explore_public_github_repository": "Explorar repositorio público en GitHub",
         "github_profile": "Perfil de GitHub",
         "the_linked_repository_was_verified_as_publicly": "Se verificó que el repositorio enlazado fuera público durante la preparación del sitio.",
-        "data_engineer_iot_data_analyst_industrial_data": "Ingeniero de Datos · Analista de Datos IoT · Analista de Datos Industriales · Integración de Sistemas",
+        "data_engineer_iot_data_analyst_industrial_data": "Telecomunicaciones - Ingeniería de Datos · Análisis de Datos IoT · Integración de Sistemas · Desarrollo de Software",
         "tele_v6_flow_1": "Monitoreo y control IoT",
         "tele_v6_flow_2": "Modelado y simulación de datos",
         "tele_v6_flow_3": "Procesamiento y calidad con PySpark"
@@ -282,7 +282,7 @@
       },
       "detail-hero": {
         "data_science_business_analytics_2025": "Ciencia de Datos / Analítica de Negocios · 2025",
-        "i_participated_actively_in_the_technical_and": "Participé activamente en el trabajo técnico y conceptual de un proyecto colaborativo de Ciencia de Datos enfocado en predecir tiempos de entrega con datos del marketplace brasileño Olist.",
+        "i_participated_actively_in_the_technical_and": "Proyecto de Ciencia de Datos enfocado en predecir tiempos de entrega con datos del marketplace brasileño Olist.",
         "regression_models": "Modelos de regresión",
         "project_03": "PROJECT / 03"
       },
@@ -293,14 +293,14 @@
       },
       "detail-body": {
         "estimating_delivery_times_is_a_practical_analytics": "Estimar tiempos de entrega es un desafío analítico concreto: los pronósticos imprecisos afectan las expectativas del cliente y la planificación logística. El dataset de Olist integra información de pedidos, clientes, vendedores, productos y envíos de Brasil. Los plazos varían según rutas y características de los productos, por lo que un promedio histórico general ofrece información limitada para cada pedido.",
-        "i_contributed_to_the_technical_analysis_and": "Contribuí al análisis técnico y a la orientación conceptual del proyecto, incluyendo la exploración inicial de datos y aportes metodológicos posteriores al equipo. El grupo integró datos del marketplace, generó variables logísticas y comparó modelos de regresión para estimar tiempos de entrega.",
+        "i_contributed_to_the_technical_analysis_and": "Desarrollé durante un año un proyecto logistico sobre el dataset de un marketplace brasilero, Olist. Se comparó modelos de regresión para estimar tiempos de entrega.",
         "explored_delivery_time_distributions_anomalies_missing_values": "Exploré distribuciones de tiempos de entrega, anomalías, datos faltantes y relaciones entre variables de pedidos y envíos.",
         "worked_with_preparation_and_integration_of_tabular": "Trabajé en la preparación e integración de datos tabulares de pedidos, clientes, vendedores, productos y geolocalización.",
         "analyzed_relevant_features_such_as_geographic_distance": "Analicé variables relevantes como la distancia geográfica (Haversine), el valor del flete, el peso del producto y los tiempos de envío.",
         "contributed_to_the_interpretation_of_the_analytical": "Contribuí a la interpretación del enfoque analítico y de las comparaciones de modelos del equipo, incluyendo regresión lineal, árboles de decisión, Random Forest y LightGBM.",
         "a_useful_delivery_forecast_links_predictive_error": "Un pronóstico útil vincula el error predictivo con decisiones concretas: fechas de entrega más claras, priorización y mejor comunicación con clientes.",
-        "the_project_demonstrates_exploratory_data_analysis_multi": "El proyecto demuestra análisis exploratorio, preparación de datos de múltiples tablas, ingeniería de variables, familiaridad con la evaluación de modelos de regresión y capacidad para relacionar hallazgos con preguntas de negocio. Complementa mi experiencia industrial con Ciencia de Datos aplicada al comercio electrónico.",
-        "collaborative_academic_work_based_on_publicly_available": "Trabajo académico colaborativo basado en datos públicos de Olist. El equipo documentó resultados de modelos predictivos y recomendaciones operativas; no se afirma un despliegue en producción ni ahorros logísticos medidos en Olist.",
+        "the_project_demonstrates_exploratory_data_analysis_multi": "El proyecto demuestra análisis exploratorio, preparación de datos de múltiples tablas, ingeniería de variables, familiaridad con la evaluación de modelos de regresión y capacidad para relacionar hallazgos con preguntas de negocio.",
+        "collaborative_academic_work_based_on_publicly_available": "Trabajo académico colaborativo basado en datos públicos de Olist.",
         "regression_models": "Modelos de regresión",
         "historical_team_notebooks_and_the_final_report": "Los notebooks históricos del equipo y el informe final todavía no se publicaron como repositorio técnico organizado.",
         "business_insights_analyst_data_analyst_operations_analytics": "Analista de Inteligencia de Negocios · Analista de Datos · Analítica Operativa · Ciencia de Datos"
@@ -324,7 +324,7 @@
       },
       "detail-body": {
         "fraud_detection_is_a_classification_problem_where": "La detección de potenciales fraudes con tarjetas de crédito presenta un desafío particular: las operaciones fraudulentas constituyen una clase minoritaria, lo que dificulta su identificación mediante métodos convencionales de clasificación.\nEl objetivo fue analizar los patrones presentes en los datos y desarrollar modelos predictivos capaces de identificar operaciones potencialmente fraudulentas, evaluando su desempeño frente al desbalance de clases.",
-        "the_group_worked_with_a_dataset_of": "En el marco de una diplomatura dictada por la Facultad de Matemática, Astronomía y Física (FaMAF) de la Universidad Nacional de Córdoba, **reconocida por su rigor académico y la profundidad de su formación en programación, matemáticas, estadística, econometría, Machine Learning y análisis de grandes volúmenes de datos**, desarrollé durante un año un proyecto de prevención de fraudes con tarjetas de crédito.\nLa formación estuvo bajo la dirección académica del Dr. Francisco Tamarit, **uno de los principales referentes argentinos en investigación sobre redes neuronales y aprendizaje automático**.\nEl proyecto se desarrolló sobre un dataset de 1.000.000 de registros y ocho columnas, en el que apliqué en profundidad técnicas de análisis exploratorio de datos, modelado predictivo y optimización de modelos.",
+        "the_group_worked_with_a_dataset_of": "En el marco de una diplomatura dictada por la Facultad de Matemática, Astronomía y Física (FaMAF) de la Universidad Nacional de Córdoba, reconocida por su rigor académico y la profundidad de su formación en programación, matemáticas, estadística, econometría, Machine Learning y análisis de grandes volúmenes de datos, desarrollé durante un año un proyecto de prevención de fraudes con tarjetas de crédito.\nLa formación estuvo bajo la dirección académica del Dr. Francisco Tamarit, uno de los principales referentes argentinos en investigación sobre redes neuronales y aprendizaje automático.\nEl proyecto se desarrolló sobre un dataset de 1.000.000 de registros y ocho columnas, en el que apliqué en profundidad técnicas de análisis exploratorio de datos, modelado predictivo y optimización de modelos.",
         "explored_distributions_anomalies_and_relationships_among_transactional": "Exploré distribuciones, correlaciones y patrones de las variables de transacciones, con atención al desbalance de clases.",
         "worked_with_preprocessing_and_approaches_for_class": "Reorganicé el preprocesamiento dentro de pipelines y comparé modelos sin balanceo, con ponderación y con submuestreo aplicado solo al entrenamiento.",
         "compared_classification_approaches_and_studied_precision_recall": "Comparé regresión logística, árbol de decisión y Random Forest; seleccioné parámetros mediante Average Precision en validación cruzada.",
