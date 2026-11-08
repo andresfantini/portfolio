@@ -313,18 +313,18 @@
       },
       "detail-hero": {
         "data_science_machine_learning_2022": "Data Science / Machine Learning · 2022 + 2026 review",
-        "exploring_how_predictive_analytics_can_help_identify": "Fraud classification with supervised models: a 2022 academic group project and a reproducible 2026 methodological reassessment using simulated data.",
+        "exploring_how_predictive_analytics_can_help_identify": "Data Science and Machine Learning project developed as part of the FaMAF–UNC diploma program, focused on identifying potentially fraudulent transactions through the preparation and training of a selected predictive model.",
         "random_forest": "Random Forest",
         "project_04": "PROJECT / 04"
       },
       "general": {
         "fraud_detection_in_transactional_data": "Fraud detection in transactional data",
-        "academic_data_science_project_famaf_unc": "Academic group project (FaMAF / UNC, 2022) · Technical reassessment (2026)",
+        "academic_data_science_project_famaf_unc": "Academic project (FaMAF / UNC, 2022)",
         "classification_methods_interpreted_through_business_risk": "Classification methods interpreted through business risk"
       },
       "detail-body": {
-        "fraud_detection_is_a_classification_problem_where": "Fraud detection is a classification problem where overall accuracy alone can be misleading. False negatives allow fraudulent transactions to go undetected, while false positives create unnecessary review costs and customer friction.",
-        "the_group_worked_with_a_dataset_of": "I participated in a 2022 FaMAF–UNC diploma group project that analyzed one million simulated transactions and compared Decision Trees with Random Forest. In 2026, I independently reconstructed the experiment, fixed data leakage, compared models using stratified cross-validation, and held out separate data for threshold selection and final testing.",
+        "fraud_detection_is_a_classification_problem_where": "Detecting potential credit card fraud presents a particular challenge: fraudulent transactions constitute a minority class, which makes them difficult to identify using conventional classification methods.\nThe objective was to analyze the patterns present in the data and develop predictive models capable of identifying potentially fraudulent transactions, while evaluating their performance in the face of class imbalance.",
+        "the_group_worked_with_a_dataset_of": "As part of a diploma program offered by the Faculty of Mathematics, Astronomy, and Physics (FaMAF) at the National University of Córdoba—a program **recognized for its academic rigor and the depth of its training in programming, mathematics, statistics, econometrics, machine learning, and big data analysis**—I spent a year developing a credit card fraud prevention project.\nThe program was under the academic direction of Dr. Francisco Tamarit, **a leading Argentine authority on research into neural networks and machine learning**.\nThe project was based on a dataset containing 1,000,000 records and eight columns, for which I applied in-depth techniques in exploratory data analysis, predictive modeling, and model optimization.",
         "explored_distributions_anomalies_and_relationships_among_transactional": "I explored distributions, correlations, and transactional patterns, paying particular attention to class imbalance.",
         "worked_with_preprocessing_and_approaches_for_class": "I organized preprocessing within pipelines and compared unweighted, class-weighted, and training-only undersampling approaches.",
         "compared_classification_approaches_and_studied_precision_recall": "I compared Logistic Regression, Decision Trees, and Random Forest, selecting hyperparameters with cross-validated Average Precision.",

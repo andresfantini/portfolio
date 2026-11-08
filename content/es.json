@@ -313,18 +313,18 @@
       },
       "detail-hero": {
         "data_science_machine_learning_2022": "Ciencia de Datos / Machine Learning · 2022 + revisión 2026",
-        "exploring_how_predictive_analytics_can_help_identify": "Clasificación de fraude con modelos supervisados: trabajo académico grupal de 2022 y evaluación metodológica reproducible de 2026 sobre datos simulados.",
+        "exploring_how_predictive_analytics_can_help_identify": "Proyecto de Ciencia de Datos y Machine Learning desarrollado en la Diplomatura de FaMAF–UNC, orientado a identificar transacciones potencialmente fraudulentas mediante la preparación y el entrenamiento del modelo predictivo seleccionado.",
         "random_forest": "Random Forest",
         "project_04": "PROJECT / 04"
       },
       "general": {
         "fraud_detection_in_transactional_data": "Detección de fraude en datos transaccionales",
-        "academic_data_science_project_famaf_unc": "Trabajo académico grupal (FaMAF / UNC, 2022) · Revisión técnica (2026)",
+        "academic_data_science_project_famaf_unc": "Trabajo académico (FaMAF / UNC, 2022)",
         "classification_methods_interpreted_through_business_risk": "Métodos de clasificación interpretados desde el riesgo empresarial"
       },
       "detail-body": {
-        "fraud_detection_is_a_classification_problem_where": "La detección de fraudes es un problema de clasificación en el cual la exactitud global puede inducir a error. Los falsos negativos permiten que pasen operaciones fraudulentas; los falsos positivos generan costos de revisión innecesarios y fricción con los clientes.",
-        "the_group_worked_with_a_dataset_of": "Participé en un proyecto grupal de la diplomatura de FaMAF–UNC (2022), donde analizamos un millón de transacciones simuladas y comparamos árboles de decisión con Random Forest. En 2026 reconstruí el experimento de forma independiente: corregí fugas de información, comparé modelos con validación cruzada estratificada y reservé datos para la selección del umbral y la prueba final.",
+        "fraud_detection_is_a_classification_problem_where": "La detección de potenciales fraudes con tarjetas de crédito presenta un desafío particular: las operaciones fraudulentas constituyen una clase minoritaria, lo que dificulta su identificación mediante métodos convencionales de clasificación.\nEl objetivo fue analizar los patrones presentes en los datos y desarrollar modelos predictivos capaces de identificar operaciones potencialmente fraudulentas, evaluando su desempeño frente al desbalance de clases.",
+        "the_group_worked_with_a_dataset_of": "En el marco de una diplomatura dictada por la Facultad de Matemática, Astronomía y Física (FaMAF) de la Universidad Nacional de Córdoba, **reconocida por su rigor académico y la profundidad de su formación en programación, matemáticas, estadística, econometría, Machine Learning y análisis de grandes volúmenes de datos**, desarrollé durante un año un proyecto de prevención de fraudes con tarjetas de crédito.\nLa formación estuvo bajo la dirección académica del Dr. Francisco Tamarit, **uno de los principales referentes argentinos en investigación sobre redes neuronales y aprendizaje automático**.\nEl proyecto se desarrolló sobre un dataset de 1.000.000 de registros y ocho columnas, en el que apliqué en profundidad técnicas de análisis exploratorio de datos, modelado predictivo y optimización de modelos.",
         "explored_distributions_anomalies_and_relationships_among_transactional": "Exploré distribuciones, correlaciones y patrones de las variables de transacciones, con atención al desbalance de clases.",
         "worked_with_preprocessing_and_approaches_for_class": "Reorganicé el preprocesamiento dentro de pipelines y comparé modelos sin balanceo, con ponderación y con submuestreo aplicado solo al entrenamiento.",
         "compared_classification_approaches_and_studied_precision_recall": "Comparé regresión logística, árbol de decisión y Random Forest; seleccioné parámetros mediante Average Precision en validación cruzada.",
