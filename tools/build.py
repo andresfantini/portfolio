@@ -115,12 +115,14 @@ def build_page(page: str, lang: str, texts: dict) -> str:
     }[lang]
     cv['href'] = relative_to_page(page, lang, ROOT/'assets'/'cv'/cv_name)
 
-    if lang == 'pt' and page == 'index.html':
-        # El enlace de trayectoria también debe descargar el CV aprobado en portugués.
-        carreira = soup.select_one('.career-text a.text-link')
-        if carreira is None:
-            raise ValueError('Falta el enlace CV de trayectoria en PT')
-        carreira['href'] = relative_to_page(page, lang, ROOT/'assets'/'cv'/cv_name)
+    if page == 'index.html':
+        # El enlace de trayectoria abre el CV aprobado según el idioma.
+        career_link = soup.select_one('.career-text a.text-link')
+        if career_link is None:
+            raise ValueError(f'Falta el enlace CV de trayectoria en {lang.upper()}')
+        career_link['href'] = relative_to_page(
+            page, lang, ROOT/'assets'/'cv'/cv_name
+        )
 
     # Accesibilidad: etiquetas del menú editables en JSON.
     button = soup.select_one('.menu-toggle')
