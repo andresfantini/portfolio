@@ -333,7 +333,11 @@
         "this_project_demonstrates_familiarity_with_supervised_classification": "O projeto demonstra experiência em análise exploratória, classificação supervisionada, validação cruzada, otimização e avaliação reproduzível. Também evidencia minha capacidade de revisar criticamente trabalhos anteriores, corrigir problemas metodológicos e comunicar limites de aplicabilidade.",
         "the_four_recovered_notebooks_remain_historical_academic": "A revisão de 2026 utilizou um dataset público simulado com 1.000.000 de registros. Em 200.000 transações reservadas, o modelo identificou 17.476 de 17.481 fraudes simuladas (recall 99,9714%), com cinco falsos negativos e nenhum falso positivo. O modelo foi congelado antes do teste final. Esses resultados não representam o desempenho em transações bancárias reais nem um sistema implantado. Os resultados de 2022 permanecem separados.",
         "random_forest": "Random Forest",
-        "data_analyst_business_insights_analyst_junior_data": "Analista de Dados · Analista de Inteligência de Negócios · Cientista de Dados Jr. · Análise de Fraudes e Riscos"
+        "the_original_team_notebooks_have_not_been": "Os notebooks e o relatório técnico da revisão individual de 2026 estão disponíveis. Os materiais originais do grupo não são redistribuídos aqui.",
+        "data_analyst_business_insights_analyst_junior_data": "Analista de Dados · Analista de Inteligência de Negócios · Cientista de Dados Jr. · Análise de Fraudes e Riscos",
+        "download_notebooks_2026": "Notebooks de desenvolvimento e avaliação (2026)",
+        "download_report_2026": "Relatório técnico de resultados (2026)",
+        "download_readme_2026": "Reprodutibilidade e limitações"
       }
     }
   },

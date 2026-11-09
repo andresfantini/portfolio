@@ -333,7 +333,11 @@
         "this_project_demonstrates_familiarity_with_supervised_classification": "This project demonstrates exploratory analysis, supervised classification, cross-validation, hyperparameter tuning, and reproducible evaluation. It also demonstrates my ability to critically review earlier work, correct methodology, and communicate applicability limits.",
         "the_four_recovered_notebooks_remain_historical_academic": "The 2026 reassessment used a public simulated dataset of 1,000,000 records. On 200,000 held-out transactions, the model detected 17,476 of 17,481 simulated fraud cases (99.9714% recall), with five false negatives and no false positives. The model was frozen before final testing. These results do not measure performance on real banking transactions or imply deployment. The original 2022 results are kept separate.",
         "random_forest": "Random Forest",
-        "data_analyst_business_insights_analyst_junior_data": "Data Analyst · Business Insights Analyst · Junior Data Scientist · Fraud / Risk Analytics"
+        "the_original_team_notebooks_have_not_been": "The 2026 individual review notebooks and technical report are available. Original group-authored materials are not redistributed here.",
+        "data_analyst_business_insights_analyst_junior_data": "Data Analyst · Business Insights Analyst · Junior Data Scientist · Fraud / Risk Analytics",
+        "download_notebooks_2026": "2026 development and evaluation notebooks",
+        "download_report_2026": "2026 technical results report",
+        "download_readme_2026": "Reproducibility and limitations"
       }
     }
   },
