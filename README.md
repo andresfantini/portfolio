@@ -79,4 +79,10 @@ Los estudios de caso respetan su carácter académico o profesional y no present
 
 Los CV en español, inglés y portugués brasileño están incorporados. El CV PT-BR fue aprobado y después recibió dos cambios puntuales solicitados: subtítulo y tamaño de enlaces. Se mantiene el contenido profesional aprobado.
 
-**Publicación:** pendiente. No se ha subido a GitHub ni activado GitHub Pages. Leer `V6_CONTROL_DE_APROBACIONES.md` antes de publicar.
+**Publicación:** activa en GitHub Pages en `https://andresfantini.github.io/portfolio/` (rama `main`, directorio raíz, deploy automático).
+
+## Nota sobre la reversión de V6.1 (Prevención de Fraudes)
+
+En noviembre de 2026 se intentó retirar los cuatro enlaces de descarga y el párrafo final del proyecto de Prevención de Fraudes (commit `8f57b38`). Tras revisar los materiales, se decidió que los archivos (notebooks, informe técnico, modelo y gráficos) debían permanecer accesibles desde la barra lateral del sitio. El cambio se revirtió (commit `4449ba3`) para restaurar los enlaces.
+
+Los archivos en `assets/projects/fraud-detection/` nunca fueron eliminados y continúan disponibles tanto en el repositorio como en el sitio publicado. La justificación editorial completa de esta decisión está documentada en `CAMBIOS_REVERSION_V6_1_2026-11-09.md`.
