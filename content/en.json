@@ -15,7 +15,7 @@
     "business_systems_cost_engineering": "Business Systems / Cost Engineering",
     "telemetriagreenhouse": "TelemetriaGreenhouse",
     "iot_data_engineering": "IoT / Data Engineering",
-    "olist_e_commerce_analytics": "Olist E-commerce Analytics",
+    "olist_e_commerce_analytics": "E-commerce Analytics",
     "data_science_business_analytics": "Data Science / Business Analytics",
     "credit_card_fraud_detection": "Credit Card Fraud Detection",
     "data_science_machine_learning": "Data Science / Machine Learning",
@@ -37,14 +37,14 @@
     "node_red": "Node-RED",
     "delivery_forecasting": "Delivery Forecasting",
     "data_science_e_commerce": "DATA SCIENCE / E-COMMERCE",
-    "i_participated_actively_in_the_technical_and": "I participated actively in the technical and conceptual work on a Data Science project analyzing delivery times in Brazilian e-commerce through EDA, feature engineering and predictive modeling.",
+    "i_participated_actively_in_the_technical_and": "I participated in a Data Science project on delivery times in Brazilian e-commerce, using EDA, feature engineering, and predictive models.",
     "python_jupyter": "Python / Jupyter",
     "pandas_eda": "Pandas / EDA",
     "data_preparation": "Data Preparation",
     "feature_engineering": "Feature Engineering",
     "fraud_analytics": "Fraud Analytics",
     "data_science_risk_analytics": "DATA SCIENCE / RISK ANALYTICS",
-    "classification_of_potentially_fraudulent_transactions_using_exploratory": "Classification of simulated transactions and methodological reassessment with independent evaluation (2026).",
+    "classification_of_potentially_fraudulent_transactions_using_exploratory": "Data Science and Machine Learning project, aimed at identifying potentially fraudulent transactions.",
     "scikit_learn": "Scikit-learn",
     "eda": "EDA",
     "classification": "Classification",
@@ -106,13 +106,13 @@
         "applied_software": "Applied software",
         "cost_modeling_software_solution": "Cost modeling → software solution",
         "public_repository": "Public repository",
-        "public_code_and_architecture_documentation": "Public code and architecture documentation",
-        "academic_team_project": "Academic team project",
-        "academic_project_analytical_evidence_under_review": "Academic project · analytical evidence under review",
-        "academic_project_notebooks_under_technical_review": "Academic project · notebooks under technical review",
+        "public_code_and_architecture_documentation": "IoT monitoring, automation and control system → Software Solution",
+        "academic_team_project": "Academic project",
+        "academic_project_analytical_evidence_under_review": "Academic project",
+        "academic_project_notebooks_under_technical_review": "Academic project",
         "aria_label_read_e_60_industrial_costing_system_case": "Read E-60 Industrial Costing System case study",
         "aria_label_read_telemetriagreenhouse_case_study": "Read TelemetriaGreenhouse case study",
-        "aria_label_read_olist_e_commerce_analytics_case_study": "Read Olist E-commerce Analytics case study",
+        "aria_label_read_olist_e_commerce_analytics_case_study": "Read E-commerce Analytics case study",
         "aria_label_read_credit_card_fraud_detection_case_study": "Read Credit Card Fraud Detection case study"
       },
       "value": {
@@ -197,7 +197,7 @@
       },
       "detail-body": {
         "an_industrial_workshop_needed_a_consistent_way": "A small industrial workshop needed a costing system tailored to its E-60 wind-turbine manufacturing process, allowing it to determine production costs, set selling prices and profitability margins, calculate break-even points, and evaluate planning scenarios.",
-        "i_designed_the_original_integrated_costing_model": "I mapped the production process, its movements and work times, and designed an integrated costing system initially implemented in Excel. I later transformed it into a Python, PostgreSQL, and Streamlit application, applying data modeling, software architecture, and automated tests.",
+        "i_designed_the_original_integrated_costing_model": "The challenge consisted of understanding the production process, designing the economic model that serves as the engine for the costing system, and transforming it into a traceable and maintainable software application.\nI mapped the production process, its movements and work times, and designed an integrated costing system initially implemented in Excel. I later transformed it into a Python, PostgreSQL, and Streamlit application, applying data modeling, software architecture, and automated tests.",
         "structured_the_model_around_direct_materials_direct": "Structured the model around direct materials, direct labor, manufacturing overhead and cost-allocation criteria.",
         "modeled_unit_production_cost_contribution_margin_break": "Modeled unit production cost, contribution margin, break-even point and production-budget calculations.",
         "built_a_python_postgresql_application_with_versioned": "Built a Python/PostgreSQL application with versioned costing and recosting, traceability and access-control mechanisms.",
@@ -212,7 +212,7 @@
         "no_public_source_code_link_is_provided": "No public source-code link is provided for this consulting project.",
         "business_systems_analyst_cost_analyst_industrial_data": "Business Systems Analyst · Cost Analyst · Industrial Data Analyst · Analytics / Data Engineering",
         "e60_v6_challenge_part2": "This required mapping production activities, studying movements and work times, identifying consumed resources, and establishing reliable criteria to calculate and monitor costs.",
-        "e60_v6_bullet_title_1": "Costing design:",
+        "e60_v6_bullet_title_1": "Costing system design:",
         "e60_v6_bullet_text_1": "I structured activities, resources, times, and criteria for allocating materials, direct labor, and manufacturing overhead.",
         "e60_v6_bullet_title_2": "Industrial budgeting:",
         "e60_v6_bullet_text_2": "I determined activity levels from the sales budget and prepared production, direct-materials, direct-labor, and manufacturing-overhead budgets.",
@@ -243,8 +243,8 @@
         "content_telemetriagreenhouse_esteban_andres_fantini": "TelemetriaGreenhouse | Esteban Andrés Fantini"
       },
       "detail-hero": {
-        "iot_data_engineering_20232026": "IoT / Data Engineering · 2023–2026",
-        "a_practical_connection_between_physical_sensor_data": "Evolution of an IoT monitoring and control system into a batch data-engineering pipeline using Python and PySpark.",
+        "iot_data_engineering_20232026": "IoT / Data Engineering",
+        "a_practical_connection_between_physical_sensor_data": "This project is the evolution of a greenhouse monitoring and control system using IoT devices, towards data modeling and processing with Python and PySpark.",
         "python_pyspark": "Python / PySpark",
         "parquet": "Parquet",
         "project_02": "PROJECT / 02"
@@ -255,21 +255,21 @@
         "end_to_end_system_thinking_across_edge": "End-to-end system thinking across edge devices and data layers"
       },
       "detail-body": {
-        "a_greenhouse_monitoring_scenario_requires_collecting_heterogeneous": "A greenhouse requires monitoring temperature, ambient humidity, light, and soil moisture, along with irrigation and ventilation actions. Historical analysis also requires defined schemas, quality checks, and reproducible data persistence.",
-        "the_original_iot_project_used_sensors_esp32": "The project began with the design and implementation of a greenhouse monitoring and control architecture as part of IoT studies (UTN, 2023–2024). I subsequently developed a data processing layer using Python and PySpark. The two phases share a domain and data model, but an automatic, continuous connection from the original physical system to the pipeline has not been established.",
+        "a_greenhouse_monitoring_scenario_requires_collecting_heterogeneous": "A rural community needed to remotely monitor the environmental and soil conditions of a greenhouse, and control irrigation and ventilation devices.\nThe initial challenge consisted of integrating sensors, actuators, and communication systems to enable remote monitoring and control. Subsequently, the project evolved into a second challenge: structuring, validating, and storing the data to facilitate its historical analysis.",
+        "the_original_iot_project_used_sensors_esp32": "The project began in 2023, during a Diploma in Internet of Things at UTN, through a collaborative technological development experience for a rural community. Subsequently, I resumed this domain to develop a Data Engineering solution with Python and PySpark.",
         "connected_the_iot_architecture_around_temperature_humidity": "I designed the IoT architecture with DHT22, TSL2561, and capacitive soil-moisture sensors, ESP32, Raspberry Pi, MQTT/Mosquitto, Node-RED, and Blynk, with irrigation and ventilation actuators.",
         "defined_datasets_for_sensor_and_actuator_events": "I modeled devices, zones, sensor and actuator events, and prepared simulated data and external historical weather information.",
         "implemented_explicit_schemas_separated_readers_writers_dataset": "I implemented Python/PySpark Bronze → Silver batch pipelines with explicit schemas, separate readers and writers, and dataset-specific quality checks.",
         "persisted_validated_analytical_data_in_parquet_and": "I persisted validated records to Parquet, added execution/error logging, and documented the modules and processing sequences.",
         "from_sensor_signal_to_trustworthy_analytical_record": "From sensor signal to trustworthy analytical record: the project connects physical systems with data engineering.",
         "the_repository_provides_evidence_of_modular_python": "The project combines an understanding of IoT hardware and communications with data modeling, PySpark processing, data-quality validation, logging, and modular software design. It demonstrates a technical progression from physical monitoring to preparing structured datasets for analysis.",
-        "the_public_repository_documents_a_bronze_silver": "The repository documents a Python/PySpark Bronze → Silver pipeline with previously verified execution and Parquet outputs. Its demonstration uses simulated sensor and actuator events, device/zone catalogs, and external historical weather information. The architecture builds conceptually on the earlier IoT system, but a continuous automatic connection between physical devices and the data pipeline has not been verified. The Gold layer and derived analytical indicators remain potential extensions. This is an academic and technical-portfolio project, not a commercially deployed system.",
+        "the_public_repository_documents_a_bronze_silver": "The repository documents five Bronze → Silver pipelines developed with Python and PySpark, with successful executions recorded during development and data persistence in Parquet.\nTo test the processing, sensor and actuator events were used, complemented with external historical weather information. The project also includes documentation and architecture diagrams.",
         "python_pyspark": "Python / PySpark",
         "parquet": "Parquet",
         "explore_public_github_repository": "Explore public GitHub repository",
         "github_profile": "GitHub profile",
         "the_linked_repository_was_verified_as_publicly": "The linked repository was verified as publicly accessible during site preparation.",
-        "data_engineer_iot_data_analyst_industrial_data": "Data Engineer · IoT Data Analyst · Industrial Data Analyst · Systems Integration",
+        "data_engineer_iot_data_analyst_industrial_data": "Telecommunications - Data Engineering · IoT Data Analysis · Systems Integration · Software Development",
         "tele_v6_flow_1": "IoT monitoring and control",
         "tele_v6_flow_2": "Data modeling and simulation",
         "tele_v6_flow_3": "PySpark processing and quality"
@@ -277,12 +277,12 @@
     },
     "projects/olist-analytics": {
       "metadata": {
-        "olist_e_commerce_analytics_esteban_andres_fantini": "Olist E-commerce Analytics | Esteban Andrés Fantini",
-        "content_olist_e_commerce_analytics_esteban_andres_fantini": "Olist E-commerce Analytics | Esteban Andrés Fantini"
+        "olist_e_commerce_analytics_esteban_andres_fantini": "E-commerce Analytics | Esteban Andrés Fantini",
+        "content_olist_e_commerce_analytics_esteban_andres_fantini": "E-commerce Analytics | Esteban Andrés Fantini"
       },
       "detail-hero": {
         "data_science_business_analytics_2025": "Data Science / Business Analytics · 2025",
-        "i_participated_actively_in_the_technical_and": "I participated actively in the technical and conceptual work on a collaborative Data Science project focused on predicting delivery times using Olist marketplace data from Brazil.",
+        "i_participated_actively_in_the_technical_and": "Data Science project focused on predicting delivery times using data from the Brazilian marketplace Olist.",
         "regression_models": "Regression Models",
         "project_03": "PROJECT / 03"
       },
@@ -293,14 +293,14 @@
       },
       "detail-body": {
         "estimating_delivery_times_is_a_practical_analytics": "Estimating delivery times is a practical analytics challenge: inaccurate forecasts affect customer expectations and logistics planning. The Olist dataset contains related information about orders, customers, sellers, products and shipping across Brazil. Delivery times vary across routes and product characteristics, so a single historical average provides limited guidance for individual orders.",
-        "i_contributed_to_the_technical_analysis_and": "I contributed to the technical analysis and the conceptual direction of the project, including early data exploration and continued methodological input to the team. The group integrated the marketplace data, engineered logistics-related variables and compared regression models to estimate delivery times.",
+        "i_contributed_to_the_technical_analysis_and": "I developed a logistics project over the course of a year using the dataset from a Brazilian marketplace, Olist. Regression models were compared to estimate delivery times.",
         "explored_delivery_time_distributions_anomalies_missing_values": "Explored delivery-time distributions, anomalies, missing values and relationships among order and shipping variables.",
         "worked_with_preparation_and_integration_of_tabular": "Worked with preparation and integration of tabular data from orders, customers, sellers, products and geolocation sources.",
         "analyzed_relevant_features_such_as_geographic_distance": "Analyzed relevant features such as geographic distance (Haversine), freight value, product weight and shipping times.",
         "contributed_to_the_interpretation_of_the_analytical": "Contributed to the interpretation of the analytical approach and team model comparisons involving Linear Regression, Decision Trees, Random Forest and LightGBM.",
         "a_useful_delivery_forecast_links_predictive_error": "A useful delivery forecast links predictive error to practical decisions: clearer delivery promises, prioritization and better customer communication.",
-        "the_project_demonstrates_exploratory_data_analysis_multi": "The project demonstrates exploratory data analysis, multi-table data preparation, feature engineering, familiarity with regression-model evaluation and the ability to connect analytical findings with business questions. It complements my industrial background with applied Data Science in an e-commerce setting.",
-        "collaborative_academic_work_based_on_publicly_available": "Collaborative academic work based on publicly available Olist data. The team documented predictive-model results and operational recommendations; no production deployment or measured logistics savings at Olist are claimed.",
+        "the_project_demonstrates_exploratory_data_analysis_multi": "The project demonstrates exploratory data analysis, multi-table data preparation, feature engineering, familiarity with regression-model evaluation and the ability to connect analytical findings with business questions.",
+        "collaborative_academic_work_based_on_publicly_available": "Collaborative academic work based on publicly available Olist data.",
         "regression_models": "Regression Models",
         "historical_team_notebooks_and_the_final_report": "Historical team notebooks and the final report have not yet been published as a curated technical repository.",
         "business_insights_analyst_data_analyst_operations_analytics": "Business Insights Analyst · Data Analyst · Operations Analytics · Data Science"
@@ -324,7 +324,7 @@
       },
       "detail-body": {
         "fraud_detection_is_a_classification_problem_where": "Detecting potential credit card fraud presents a particular challenge: fraudulent transactions constitute a minority class, which makes them difficult to identify using conventional classification methods.\nThe objective was to analyze the patterns present in the data and develop predictive models capable of identifying potentially fraudulent transactions, while evaluating their performance in the face of class imbalance.",
-        "the_group_worked_with_a_dataset_of": "As part of a diploma program offered by the Faculty of Mathematics, Astronomy, and Physics (FaMAF) at the National University of Córdoba—a program **recognized for its academic rigor and the depth of its training in programming, mathematics, statistics, econometrics, machine learning, and big data analysis**—I spent a year developing a credit card fraud prevention project.\nThe program was under the academic direction of Dr. Francisco Tamarit, **a leading Argentine authority on research into neural networks and machine learning**.\nThe project was based on a dataset containing 1,000,000 records and eight columns, for which I applied in-depth techniques in exploratory data analysis, predictive modeling, and model optimization.",
+        "the_group_worked_with_a_dataset_of": "As part of a diploma program offered by the Faculty of Mathematics, Astronomy, and Physics (FaMAF) at the National University of Córdoba—a program recognized for its academic rigor and the depth of its training in programming, mathematics, statistics, econometrics, machine learning, and big data analysis—I spent a year developing a credit card fraud prevention project.\nThe program was under the academic direction of Dr. Francisco Tamarit, a leading Argentine authority on research into neural networks and machine learning.\nThe project was based on a dataset containing 1,000,000 records and eight columns, for which I applied in-depth techniques in exploratory data analysis, predictive modeling, and model optimization.",
         "explored_distributions_anomalies_and_relationships_among_transactional": "I explored distributions, correlations, and transactional patterns, paying particular attention to class imbalance.",
         "worked_with_preprocessing_and_approaches_for_class": "I organized preprocessing within pipelines and compared unweighted, class-weighted, and training-only undersampling approaches.",
         "compared_classification_approaches_and_studied_precision_recall": "I compared Logistic Regression, Decision Trees, and Random Forest, selecting hyperparameters with cross-validated Average Precision.",
