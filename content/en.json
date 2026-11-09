@@ -22,6 +22,7 @@
     "selected_work": "Selected work",
     "cost_systems": "Cost Systems",
     "business_systems_industrial_analytics": "BUSINESS SYSTEMS / INDUSTRIAL ANALYTICS",
+    "modular_architecture": "Modular architecture",
     "ongoing": "Ongoing",
     "an_industrial_costing_model_evolved_from_excel": "An industrial costing model evolved from Excel into a Python, PostgreSQL, and Streamlit application for pricing and management decisions.",
     "cost_management": "Cost Management",

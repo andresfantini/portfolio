@@ -22,6 +22,7 @@
     "selected_work": "Proyectos seleccionados",
     "cost_systems": "Sistemas de Costos",
     "business_systems_industrial_analytics": "SISTEMAS DE GESTIÓN / ANALÍTICA INDUSTRIAL",
+    "modular_architecture": "Arquitectura modular",
     "ongoing": "En desarrollo",
     "an_industrial_costing_model_evolved_from_excel": "Modelo de costeo industrial evolucionado desde Excel hacia una aplicación en Python, PostgreSQL y Streamlit para decisiones de precios y gestión.",
     "cost_management": "Gestión de costos",
