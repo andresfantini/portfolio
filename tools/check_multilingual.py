@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parent.parent
 LANGS={'en':'en','es':'es-AR','pt':'pt-BR'}
-PAGES=['index.html','projects/e60-costing.html','projects/telemetria-greenhouse.html','projects/olist-analytics.html','projects/fraud-detection.html']
+PAGES=['index.html','projects/e60-costing.html','projects/telemetria-greenhouse.html','projects/olist-analytics.html','projects/fraud-detection.html','projects/vehicle-market-scraper.html','projects/file-inventory.html']
 errors=[];checked=0
 for l,html_lang in LANGS.items():
  for page in PAGES:
@@ -34,7 +34,7 @@ for l,html_lang in LANGS.items():
   h1=soup.find('h1')
   if not h1:errors.append(f'{f}: missing H1')
   if page=='index.html':
-   if len(soup.select('.project-card'))!=4:errors.append(f'{f}: projects missing')
+   if len(soup.select('.project-card'))!=6:errors.append(f'{f}: projects missing')
   else:
    if len(soup.select('.article h2'))!=4:errors.append(f'{f}: incomplete project content')
 print(f'Validated {len(LANGS)*len(PAGES)} pages and {checked} internal links/resources')

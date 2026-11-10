@@ -77,7 +77,9 @@
     "aria_label_project_details": "Detalles del proyecto",
     "model_evaluation": "Evaluación de modelos",
     "discuss_this_project": "Consultar sobre este proyecto",
-    "download_cv_button": "Descargar CV (ES)"
+    "download_cv_button": "Descargar CV (ES)",
+    "vehicle_market_scraper_title": "Vehicle Market Scraper",
+    "data_engineering": "Ingeniería de Datos"
   },
   "pages": {
     "index": {
@@ -102,7 +104,7 @@
       },
       "work": {
         "selected_projects": "Proyectos destacados.",
-        "four_complementary_case_studies_connecting_industrial_management": "Cuatro proyectos complementarios que integran gestión industrial, analítica, ingeniería de datos y aprendizaje automático. Cada caso presenta el problema, el enfoque y las evidencias.",
+        "six_complementary_case_studies_connecting_industrial_management": "Seis proyectos complementarios que integran gestión industrial, analítica, ingeniería de datos y automatización. Cada caso presenta el problema, el enfoque y las evidencias.",
         "case_study": "CASO DE ESTUDIO",
         "applied_software": "Software aplicado",
         "cost_modeling_software_solution": "Modelo de costos → solución de software",
@@ -339,6 +341,74 @@
         "download_notebooks_2026": "Notebook de desarrollo y evaluación (2026)",
         "download_report_2026": "Informe técnico de resultados (2026)",
         "download_readme_2026": "Reproducibilidad y limitaciones"
+      }
+    },
+    "projects/vehicle-market-scraper": {
+      "metadata": {
+        "vehicle_market_scraper_esteban_andres_fantini": "Vehicle Market Scraper | Esteban Andrés Fantini",
+        "content_vehicle_market_scraper_esteban_andres_fantini": "Scraper horizontal de publicaciones de vehículos de Mercado Libre Argentina."
+      },
+      "detail-hero": {
+        "data_engineering_software_2024": "Ingeniería de Datos / Software",
+        "extracting_vehicle_market_listings_through_a_modular": "Extracción de publicaciones de vehículos mediante una arquitectura de software modular, evitando el acceso individual a cada publicación.",
+        "web_scraping": "Web Scraping",
+        "project_05": "PROJECT / 05"
+      },
+      "general": {
+        "vehicle_market_data_extraction": "Extracción de datos del mercado automotor",
+        "professional_consulting_project": "Proyecto de consultoría / scraping horizontal",
+        "modular_architecture_and_reproducible_testing": "Arquitectura modular y testing reproducible"
+      },
+      "detail-body": {
+        "the_challenge": "Una concesionaria necesitaba analizar el mercado de vehículos usados, pero la extracción manual de publicaciones desde Mercado Libre resultaba inviable por el volumen y la paginación dinámica. El objetivo fue construir un scraper horizontal que capturara las tarjetas de resultados de forma masiva, normalizara los datos (precios, años, kilometraje) y evitara duplicados sin ingresar a cada publicación individual.",
+        "the_approach": "Diseñé el sistema como un flujo de procesamiento por etapas con responsabilidades separadas:\n1. Adquisición HTTP: Sesión persistente, cookies y detección de bloqueos (403/429).\n2. Paginación: Cálculo automático de las URLs de las páginas siguientes.\n3. Crawler: Orquestador del recorrido que gestiona el límite de páginas y la deduplicación mediante identificadores únicos (IDs).\n4. Parser: Interpretación del HTML de las tarjetas.\n5. Normalización: Conversión de textos (ej. '130.000 Km') a valores numéricos listos para análisis.\n6. Exportación: Generación del dataset en CSV.\nLa validación inicial del MVP se realizó sobre una búsqueda de Volkswagen Up! 2018, obteniendo 106 registros con 0 duplicados.",
+        "what_this_demonstrates": "El proyecto demuestra capacidad para diseñar arquitecturas de software mantenibles (separando adquisición, parsing y exportación), aplicar técnicas de Web Scraping robustas frente a bloqueos, y desarrollar tests automatizados con fixtures HTML para garantizar la reproducibilidad del análisis sin depender del sitio en vivo.",
+        "evidence_and_scope": "El MVP se encuentra funcional y validado localmente. Se implementó un enfoque de scraping horizontal (solo páginas de resultados) para minimizar la carga sobre la plataforma. El scraping vertical (ingresar a cada aviso) queda fuera del alcance actual. El código incluye tests y documentación técnica de la arquitectura.",
+        "web_scraping": "Web Scraping",
+        "explore_public_github_repository": "Explorar repositorio público en GitHub",
+        "github_profile": "Perfil de GitHub",
+        "the_linked_repository_was_verified_as_publicly": "Se verificó que el repositorio enlazado fuera público durante la preparación del sitio.",
+        "data_engineer_python_developer_scraping_analyst": "Ingeniero de Datos · Desarrollador Python · Analista de Datos · Especialista en Web Scraping",
+        "vehicle_v6_flow_1": "Adquisición HTTP y paginación",
+        "vehicle_v6_flow_2": "Parsing y normalización",
+        "vehicle_v6_flow_3": "Deduplicación y exportación",
+        "vehicle_market_scraper_contact_title": "Contacto y confidencialidad",
+        "contact_for_details": "Solicitar detalles por correo",
+        "confidentiality_note": "El código fuente y la lógica de extracción de este proyecto de consultoría no se publican por razones de confidencialidad comercial."
+      }
+    },
+    "projects/file-inventory": {
+      "metadata": {
+        "file_inventory_esteban_andres_fantini": "Inventario de Archivos | Esteban Andrés Fantini",
+        "content_file_inventory_esteban_andres_fantini": "Sistema local para buscar archivos en discos, registrar metadatos y generar inventarios en Excel."
+      },
+      "detail-hero": {
+        "automation_scripting_2024": "Automatización / Scripting",
+        "building_a_local_file_search_system_to_register": "Búsqueda recursiva de archivos en el sistema, extracción de metadatos y generación automática de reportes estructurados en Excel.",
+        "bash_python": "Bash / Python",
+        "project_06": "PROJECT / 06"
+      },
+      "general": {
+        "local_file_search_and_cataloging": "Búsqueda y catalogación de archivos locales",
+        "personal_tooling_project": "Proyecto personal de automatización",
+        "efficiency_through_scripting_and_data_processing": "Eficiencia mediante scripting y procesamiento de datos"
+      },
+      "detail-body": {
+        "the_challenge": "La gestión de grandes volúmenes de archivos dispersos en múltiples unidades de disco requiere una solución para catalogarlos. La búsqueda manual es ineficiente y dificulta el análisis del espacio de almacenamiento. El objetivo fue crear una herramienta que recorriera los discos, extrajera los metadatos (fechas, tamaño, ruta) y consolidara todo en un inventario analizable.",
+        "the_approach": "Desarrollé un flujo de trabajo dividido en dos etapas:\n1. Sabueso (Bash): Un script interactivo que recorre las unidades seleccionadas, aplica filtros y genera archivos de texto (TSV) con los metadatos crudos y ordenados.\n2. Procesamiento (Python): Un script que toma los resultados, los carga con Pandas, procesa las fechas y exporta un archivo Excel listo para su análisis.\nLa arquitectura separa la recolección de datos (Bash) del procesamiento analítico (Python).",
+        "what_this_demonstrates": "Este proyecto demuestra habilidades de automatización a nivel de sistema operativo, manejo de permisos (sudo), diseño de interfaces interactivas en terminal (Bash), y procesamiento analítico de datos con Pandas para generar reportes de valor.",
+        "evidence_and_scope": "El sistema es funcional y se encuentra en uso local. Se priorizó un enfoque de eficiencia mediante scripts y un manejo seguro de permisos elevados. El proyecto no incluye interfaz gráfica; su uso está orientado a la terminal.",
+        "bash_python": "Bash / Python",
+        "explore_public_github_repository": "Explorar repositorio público en GitHub",
+        "github_profile": "Perfil de GitHub",
+        "the_linked_repository_was_verified_as_publicly": "Se verificó que el repositorio enlazado fuera público durante la preparación del sitio.",
+        "data_engineer_automation_specialist_systems_analyst": "Ingeniero de Datos · Especialista en Automatización · Analista de Sistemas · Desarrollador Python / Bash",
+        "inventory_v6_flow_1": "Exploración del sistema (Bash)",
+        "inventory_v6_flow_2": "Extracción de metadatos",
+        "inventory_v6_flow_3": "Procesamiento y Excel (Pandas)",
+        "file_inventory_contact_title": "Contacto y confidencialidad",
+        "contact_for_details": "Solicitar detalles por correo",
+        "confidentiality_note": "El código fuente de esta herramienta de automatización no se publica por razones de confidencialidad."
       }
     }
   },

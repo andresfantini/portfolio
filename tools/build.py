@@ -17,6 +17,8 @@ PAGES = [
     'projects/telemetria-greenhouse.html',
     'projects/olist-analytics.html',
     'projects/fraud-detection.html',
+    'projects/vehicle-market-scraper.html',
+    'projects/file-inventory.html',
 ]
 LANGS = ('es', 'en', 'pt')
 LANG_HTML = {'es': 'es-AR', 'en': 'en', 'pt': 'pt-BR'}
@@ -155,7 +157,7 @@ def main():
     for target, data in generated.items():
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(data,encoding='utf-8')
-    print(f'OK: {len(generated)} páginas generadas (5 ES + 5 EN + 5 PT); español es idioma inicial.')
+    print(f'OK: {len(generated)} páginas generadas ({len(PAGES)} ES + {len(PAGES)} EN + {len(PAGES)} PT); español es idioma inicial.')
 
 if __name__=='__main__':
     try: main()
