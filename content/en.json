@@ -379,7 +379,7 @@
     },
     "projects/file-inventory": {
       "metadata": {
-        "file_inventory_esteban_andres_fantini": "File Inventory | Esteban Andrés Fantini",
+        "file_inventory_esteban_andres_fantini": "File Inventory",
         "content_file_inventory_esteban_andres_fantini": "Local system to search files on drives, record metadata, and generate Excel inventories."
       },
       "detail-hero": {

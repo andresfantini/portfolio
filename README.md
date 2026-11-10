@@ -74,6 +74,8 @@ Abrir `http://localhost:8000/` y detener con `Ctrl+C`.
 2. TelemetriaGreenhouse — IoT, telemetría y procesamiento Python/PySpark.
 3. OLIST — Análisis de e-commerce y colaboración en Data Science.
 4. Prevención de Fraudes — Clasificación y análisis de riesgos.
+5. Vehicle Market Scraper — Extracción de datos del mercado automotor y arquitectura modular (confidencial).
+6. Inventario de Archivos — Automatización de sistemas y scripting con Bash y Python.
 
 Los estudios de caso respetan su carácter académico o profesional y no presentan como comprobados rendimientos predictivos sin revisión independiente ni despliegues no confirmados. Se incorporan notebooks y resultados de la revisión individual de Fraudes 2026. No se incluye `card_transdata.csv` ni código privado del cliente E-60.
 

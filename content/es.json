@@ -379,7 +379,7 @@
     },
     "projects/file-inventory": {
       "metadata": {
-        "file_inventory_esteban_andres_fantini": "Inventario de Archivos | Esteban Andrés Fantini",
+        "file_inventory_esteban_andres_fantini": "Inventario de Archivos",
         "content_file_inventory_esteban_andres_fantini": "Sistema local para buscar archivos en discos, registrar metadatos y generar inventarios en Excel."
       },
       "detail-hero": {
