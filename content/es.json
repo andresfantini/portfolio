@@ -170,12 +170,16 @@
         "i_am_based_in_argentina_and_interested": "Resido en Argentina y busco oportunidades remotas en áreas bajo mi dominio",
         "email_me": "Escribime",
         "contact_documents": "CONTACTOS",
-        "andres_fantini_mi_unc_edu_ar": "andres.fantini@mi.unc.edu.ar ↗",
         "github_andresfantini": "GitHub / andresfantini ↗",
         "repository_heading": "REPOSITORIO",
-        "arg_phone": "ARG: +54 9 (351) 234-8539",
-        "br_whatsapp": "BR / WhatsApp / Telegram: +55 11 97 859-2020",
-        "telegram_br": "https://t.me/andresfantini"
+        "contact_label_email": "E-mail:",
+        "contact_label_telegram": "Telegram:",
+        "contact_label_whatsapp": "WhatsApp (BR):",
+        "contact_label_phone": "Tel (ARG):",
+        "andres_fantini_mi_unc_edu_ar": "andres.fantini@mi.unc.edu.ar ↗",
+        "telegram_br": "+55 11 97 859-2020 | https://t.me/andresfantini ↗",
+        "br_whatsapp": "+55 11 97 859-2020",
+        "arg_phone": "+54 9 (351) 234-8539"
       }
     },
     "projects/e60-costing": {
