@@ -378,7 +378,9 @@
         "vehicle_v6_flow_3": "Deduplication and export",
         "vehicle_market_scraper_contact_title": "Contact and confidentiality",
         "contact_for_details": "Request details by email",
-        "confidentiality_note": "The source code and extraction logic of this consulting project are not published for commercial confidentiality reasons."
+        "confidentiality_note": "The source code and extraction logic of this consulting project are not published for commercial confidentiality reasons.",
+        "components_diagram_caption": "Component Diagram — System Architecture",
+        "sequence_diagram_caption": "Sequence Diagram — Extraction Flow"
       }
     },
     "projects/file-inventory": {

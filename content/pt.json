@@ -378,7 +378,9 @@
         "vehicle_v6_flow_3": "Deduplicação e exportação",
         "vehicle_market_scraper_contact_title": "Contato e confidencialidade",
         "contact_for_details": "Solicitar detalhes por e-mail",
-        "confidentiality_note": "O código-fonte e a lógica de extração deste projeto de consultoria não são publicados por razões de confidencialidade comercial."
+        "confidentiality_note": "O código-fonte e a lógica de extração deste projeto de consultoria não são publicados por razões de confidencialidade comercial.",
+        "components_diagram_caption": "Diagrama de Componentes — Arquitetura do sistema",
+        "sequence_diagram_caption": "Diagrama de Sequência — Fluxo de extração"
       }
     },
     "projects/file-inventory": {

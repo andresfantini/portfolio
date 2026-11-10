@@ -283,3 +283,29 @@ a:focus-visible,button:focus-visible{outline:2px solid #4bbad1;outline-offset:3p
 .contact-panel .contact-group a:last-child {margin-bottom:0}
 .contact-panel .contact-phone {font-size:.92rem;font-weight:500;line-height:1.65;color:#dcecf2;max-width:none;margin:4px 0 8px;overflow-wrap:anywhere}
 .contact-panel .contact-group-details .contact-phone:last-child {margin-bottom:0}
+
+/* Diagramas UML en proyectos */
+.project-diagrams {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.project-diagrams figure {
+    margin: 0;
+    padding: 0;
+}
+.project-diagrams img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.project-diagrams figcaption {
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: #666;
+    text-align: center;
+    font-style: italic;
+}
