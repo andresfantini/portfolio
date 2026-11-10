@@ -1,6 +1,6 @@
 # Portfolio profesional — Esteban Andrés Fantini
 
-**V6 — Recuperación de modificaciones editoriales conocidas (versión de revisión).** Sitio estático trilingüe: español (inicio), inglés y portugués brasileño. Se conserva el diseño azul petróleo aprobado en V4.
+**V7.0 — Portfolio profesional con 6 proyectos (ES/EN/PT).** Sitio estático trilingüe: español (inicio), inglés y portugués brasileño. Se conserva el diseño azul petróleo aprobado en V4.
 
 ## Edición rápida del contenido
 
