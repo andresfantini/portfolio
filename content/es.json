@@ -234,6 +234,7 @@
         "e60_v6_flow_1": "Relevamiento del proceso productivo",
         "e60_v6_flow_2": "Diseño del sistema de costeo",
         "e60_v6_flow_3": "Desarrollo del software",
+        "e60_v6_flow_4": "Deployment",
         "e60_v6_areas_title": "Áreas profesionales relacionadas",
         "e60_v6_areas": "Analisis de Procesos Industriales · Diseño de Sistemas de Costeo · Ingenieria de Datos · Desarrollado de Software · Deployment",
         "e60_v6_methods_title": "Tecnologías y métodos",
@@ -241,7 +242,9 @@
         "e60_v6_contact_title": "Contacto y confidencialidad",
         "e60_v6_contact_question": "¿Te interesa conocer más sobre el desarrollo de E-60?",
         "e60_v6_contact_button": "✉ CONTACTAR POR CORREO ↗",
-        "e60_v6_confidential": "Por confidencialidad, no se publica el código fuente de este proyecto de consultoría."
+        "e60_v6_confidential": "Por confidencialidad, no se publica el código fuente de este proyecto de consultoría.",
+        "e60_diagram_components_caption": "Diagrama de Componentes — Arquitectura de Software",
+        "e60_diagram_sequence_caption": "Diagrama de Secuencia — Flujo de Costeo"
       }
     },
     "projects/telemetria-greenhouse": {
@@ -279,7 +282,9 @@
         "data_engineer_iot_data_analyst_industrial_data": "Telecomunicaciones - Ingeniería de Datos · Análisis de Datos IoT · Integración de Sistemas · Desarrollo de Software",
         "tele_v6_flow_1": "Monitoreo y control IoT",
         "tele_v6_flow_2": "Modelado y simulación de datos",
-        "tele_v6_flow_3": "Procesamiento y calidad con PySpark"
+        "tele_v6_flow_3": "Procesamiento y calidad con PySpark",
+        "telemetria_diagram_components_caption": "Diagrama de Componentes — Arquitectura del Sistema",
+        "telemetria_diagram_sequence_caption": "Diagrama de Secuencia — Flujo de Eventos"
       }
     },
     "projects/olist-analytics": {
